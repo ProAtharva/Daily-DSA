@@ -3,8 +3,8 @@ class Solution {
         int maxSum = Integer.MIN_VALUE;
         int sum = 0;
         for (int n : nums) {
-            sum += n; // -2 // 0+ 1 // -2 == 0 // 4
-            maxSum = Math.max(maxSum, sum); // 1 // 4 
+            sum += n; 
+            maxSum = Math.max(maxSum, sum); 
             if (sum < 0) {
                 sum = 0;
             }
